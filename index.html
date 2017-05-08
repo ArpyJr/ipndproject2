@@ -8,6 +8,8 @@
 	</head>
 	<body>
 		<header>
+		<!-- header includes the logo, page title, search bar, and navigation -->
+			<!-- #headerDiv includes img, title, search -->
 			<div id="headerDiv" class=width100>
 				<img id="logo" src="ship.png" alt="pirate ship">
 				<div id="pageName">
@@ -15,6 +17,7 @@
 				</div>
 				<input id="searchBar" type="text">
 			</div>
+			<!-- coding for the navigation below -->
 			<nav>
 				<ul id="navList">
 					<li class="navTab"><a href="index.html">About</a></li>
@@ -24,14 +27,23 @@
 				</ul>
 			</nav>
 		</header>
+		<!-- main div has a div on the left to select different content and div on
+		the right to display the content. Div on the left for naviation should collapse
+		when not in use, and expand when cursor is hovered -->
 		<div id="main">
+			<!-- #mainBar is there so children div can be positioned at the center -->
 			<div id="mainBar">
+				<!-- #buttonBox will collapse into a button-like shape unless the
+				cursor is hovered in which case it will expand and show content selection -->
 				<div id="buttonBox">
 				</div>
 			</div>
+			<!-- below is div for displaying content -->
 			<div id="content">
 			</div>
 		</div>
+		<!-- section for the bottom of the screen to display name and project, and to
+		break up the page for cosmetic purposes -->
 		<footer>
 			<p class="footerP">IPND Project 2</p>
 			<p class="footerP">By Jooyong Chung</p>
