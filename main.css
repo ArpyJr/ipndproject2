@@ -46,3 +46,18 @@ h1 {
 	border-right: 1px solid black;
 }
 /* styling for navigation bar --- END --- */
+
+/* styling for Footing --- START --- */
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+.footerP {
+	text-align: right;
+	margin: 16px 0;
+	padding-right: 10px;
+}
+/* styling for Footing --- END --- */
