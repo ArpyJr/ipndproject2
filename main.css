@@ -46,7 +46,23 @@ h1 {
 	border-right: 1px solid black;
 }
 /* styling for navigation bar --- END --- */
+/* styling for #main --- START --- */
+#main {
+	height: 60vh;
+	padding-top: 30px;
+	display: flex;
+}
 
+#mainBar {
+	height: 100%;
+	width: 15vw;
+}
+
+#content {
+	width: 70vw;
+	height: 100%;
+}
+/* styling for #main --- END --- */
 /* styling for Footing --- START --- */
 footer {
 	position: absolute;
