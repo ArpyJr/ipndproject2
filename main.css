@@ -1,5 +1,17 @@
+/* parent elements */
 body {
 	margin: 0;
+	height: 100vh;
+	width: 100vw;
+	background: url("topo.png");
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+	position: relative;
 }
 
 /* styling for #headerDiv and included elements ---START--- */
@@ -56,12 +68,23 @@ h1 {
 
 #mainBar {
 	height: 100%;
-	width: 15vw;
+	width: 15%;
+}
+
+#buttonBox {
+	border-radius: 50%;
+	margin: calc(30vh - 25px) auto;
+	height: 50px;
+	width: 50px;
+	background: white;
+	box-shadow: 4px 4px 14px 1px #939393;
 }
 
 #content {
-	width: 70vw;
+	width: 70%;
 	height: 100%;
+	background: white;
+	box-shadow: 4px 4px 14px 1px #939393;
 }
 /* styling for #main --- END --- */
 /* styling for Footing --- START --- */
