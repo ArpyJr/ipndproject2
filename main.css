@@ -89,6 +89,17 @@ h1 {
 	margin: 7vh auto;
 }
 
+#buttonBoxInner {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+	opacity: 0;
+}
+
+#buttonBoxInner:hover {
+	opacity: 1;
+}
+
 #content {
 	width: 70%;
 	height: 100%;
