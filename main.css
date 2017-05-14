@@ -13,6 +13,14 @@ body {
 	position: relative;
 }
 
+.fontOswald {
+	font-family: 'Oswald', sans-serif;
+}
+
+.fontIndie {
+	font-family: 'Indie Flower', cursive;
+}
+
 /* styling for #headerDiv and included elements ---START--- */
 #headerDiv {
 	display: flex;
@@ -136,6 +144,14 @@ h1 {
 #contentBodyDesc {
 	width: 65%;
 	padding-left: 10px;
+}
+
+.contentList::selection {
+	background: yellow;
+}
+
+.contentList::-moz-selectioni {
+	background: yellow;
 }
 
 .linethru {
