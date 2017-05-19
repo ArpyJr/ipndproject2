@@ -59,7 +59,7 @@ h1 {
 }
 
 .navTab {
-	display:inline;
+	display: inline;
 	padding: 0 1em 0 1em;
 	margin: 0 1.5em 0 1.5em;
 	border-left: 1px solid black;
@@ -68,8 +68,8 @@ h1 {
 /* styling for navigation bar --- END --- */
 /* styling for #main --- START --- */
 #main {
-	height: 70vh;
-	padding-top: 30px;
+	height: auto;
+	padding: 30px;
 	display: flex;
 }
 
@@ -117,7 +117,7 @@ h1 {
 
 #contentHeader {
 	height:15%;
-	margin: 0px;
+	margin: 0;
 	padding: 0 15px;
 }
 
